@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Exile&display=swap');
 
 :root {
-    --cor-primaria:#;
-    --cor-primaria-escura:#;
-    --cor-bg: #;
+    --cor-primaria:#132431;
+    --cor-primaria-escura:#0D1821;
+    --cor-bg: #8f4e57;
     --cor-branco: #ffffff;
-    --cor-borda: #ddd;
+    --cor-borda: #F0F4EF;
     --cor-sombra: rgba(0, 0, 0, 0.15);
     --cor-texto: #333;
 
@@ -13,4 +13,16 @@
 
     --raio: 0.8rem;
     --transition: 0.3s ease;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font);
+    background: #9F84BD;
+    background: linear-gradient(90deg, rgba(159, 132, 189, 1) 0%, rgba(224, 251, 252, 1) 50%, rgba(237, 227, 233, 1) 100%);
 }
