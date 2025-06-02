@@ -34,6 +34,7 @@ body {
 
 .conteiner {
     background: var(--cor-bg);
+    background: linear-gradient(90deg, rgba(234, 255, 218, 1) 0%, rgba(255, 212, 202, 1) 50%, rgba(154, 122, 160, 1) 100%);
     padding: clamp(2rem, 5vw, 3rem);
     border-radius: var(--raio);
     box-shadow: 0 8px 24px var(--cor-sombra);
