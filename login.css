@@ -86,7 +86,6 @@ button {
     border: none;
     border-radius: var(--raio);
     background-color: var(--cor-primaria);
-    background: linear-gradient(90deg,rgba(197, 218, 193, 1) 0%, rgba(87, 199, 164, 1) 50%, rgba(87, 197, 199, 1) 100%);
     transition: var(--transition);
     cursor: pointer;
 }
